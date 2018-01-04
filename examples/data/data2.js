@@ -2,7 +2,7 @@ var data2=[{
 "areaCode" : "320412",
 "collapsed" : "",
 "companyId" : "2c9194c71d007ba0011d1de977b606c0",
-"companyName" : "江苏**制药集团有限公司",
+"companyName" : "江苏****集团有限公司",
 "exwarehouse" : "38170",
 "id" : "2c9194c71d007ba0011d1de977b606c0",
 "inventory" : "0",
