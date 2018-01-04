@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>流程图demo</title>
+    <link rel="stylesheet" href="./common/css/reset.css" />
+    <link rel="stylesheet" href="./common/css/private.css" />
+    <link rel="stylesheet" href="./jquery/css/jquery-ui.custom.css">
+    <link rel="stylesheet" href="../css/traceGraphic.css" />
+    <script src="./jquery/jquery-1.7.2.js"></script>
+    <script src="./jquery/jquery-ui.min.js"></script>
+    <script src="../js/traceGraphic-all-debug.js"></script>
+    <script src="../js/TraceGraphic.js"></script>
+    <script src="data/data2.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="traceContainer"></div>
+</body>
+<script>
+    $(function() {
+        $(".showbox .close").click(function() {
+            $(this).parents(".showbox").hide();
+            return false;
+        });
+    });
+</script>
+<script>
+    $(function() {
+        $(".more-link").click(function() {
+            $(".more-txt").toggle();
+            $(this).find("b").toggleClass("on");
+            if ($(this).find("b").hasClass("on")) {
+                $(this).find("span").text("精简");
+            } else {
+                $(this).find("span").text("更多");
+            }
+        });
+    });
+</script>
+
+</html>

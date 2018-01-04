@@ -1,0 +1,37 @@
+/*reset&common*/
+*{margin:0;padding:0;}
+html {height:100%;}
+body{height:100%;*position:relative;font-family:Arial,sans-serif,"宋体";font-size:12px;}
+a{color:#105cb6;text-decoration:none;}
+a:hover{color:#900;}
+.h2{font-size:18px;font-weight:bold;}
+.h3{font-size:14px;font-weight:bold;}
+.h4{font-size:14px;font-weight:bold;}
+.h5{font-size:12px;font-weight:bold;}
+textarea {outline:none;resize:none;overflow:auto;\9}
+input{outline:none;}
+h1, h2, h3, h4, h5, h6 {font-size:12px;padding:0;margin:0;}
+ol, dl, ul, li, dl, dd, dt {list-style:none;padding:0;margin:0;}
+table {border-collapse:collapse;border-spacing:0;}
+p {margin:0;padding:0;}
+img {border:0;vertical-align:top;}
+
+a:hover{ color:#fff;text-decoration:underline;}
+fieldset{border:none;}
+form{padding:0; margin:0;}
+iframe{overflow:hidden;}
+/*reset end*/
+/*common begin*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-block;}
+/* Hides from IE-mac */
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+.clear{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.mar-b-1{margin-bottom:10px;}
+.mar-b-2{margin-bottom:20px;}
+.mar-r-1{margin-right:10px;}
+.on{display:block;}
+.hidden{display:none;}
